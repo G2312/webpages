@@ -1,0 +1,136 @@
+/* css reset */
+*{
+    margin: 1;
+    padding: 1;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f4f5;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 30px;
+    
+}
+.nav-section ul{
+    display: flex;
+    /* flex-direction: row; */
+    text-decoration: none;
+    gap: 70px;
+    margin-right: 70px;
+}
+li{
+    display: flex;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+    color: rgb(46, 134, 46);
+}
+a[href=""]{
+    color:rgb(46, 134, 46) ;
+    text-decoration: underline;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 85vh;
+}
+section div{
+    width: 50%;
+}
+.topAngle{
+    width: 24px;
+    margin-left: 8%;
+    margin-top: 15%;
+    
+
+}
+.left-content h1{
+    font-size: 60px;
+    margin-left: 8%;
+    
+}
+.left-content p{
+    font-size: 20px;
+    color: #7c7c7c;
+    margin: 20px 0;
+    margin-left: 8%;
+}
+.bottomAngle{
+    width: 24px;
+    position: absolute;
+    left: 695px;
+    
+}
+.ste{
+    position: absolute;
+    width: 40%;
+    top: -10px;
+    right: -25%;
+     left: 0px;  
+    z-index:-1;
+    margin-left: 20% ;
+    margin-top: 10%;
+
+}
+.mouse{
+    position: absolute;
+    width: 30px;
+    left: 735px;
+    margin-top: 40px;
+}
+button{
+    margin: 8%;
+    padding: 10px 25px;
+    font-size: 25px;
+    color: white;
+    border-radius: 30px;
+    background-color:  #20BC7E;
+    font-weight: bolder;
+    border: none;
+ 
+}
+button:hover{
+    transform: scale(1.1);
+    background-color: black;
+}
+.greenbox,
+.yellowbox{
+    position: absolute;
+    right: 0;
+}
+.greenbox{
+    width: 34%;
+    bottom: 30px;
+}
+.yellowbox{
+    width: 20%;
+    bottom: 50px;
+}
+.doctor{
+    height: 90%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+
+}
+    
